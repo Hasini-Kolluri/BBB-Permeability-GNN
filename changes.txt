@@ -1,0 +1,6 @@
+
+50% of neurons are set to 0
+dropout = 0/5 ---> model.py
+
+
+33 features can be reduced ----> model.py
