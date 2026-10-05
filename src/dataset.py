@@ -8,10 +8,8 @@ from features import smiles_to_graph
 def load_data(path):
     df = pd.read_excel(path)
     graphs = []
-
     for _, row in df.iterrows():
         graph = smiles_to_graph(row["SMILES"])
-        
         if graph is None:
             continue
         
