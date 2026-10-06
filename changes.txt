@@ -4,3 +4,6 @@ dropout = 0/5 ---> model.py
 
 
 33 features can be reduced ----> model.py
+
+can use gridSearchCV for tuning the hyperparameters
+Can try to change the number of neurons
